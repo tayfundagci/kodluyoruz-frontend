@@ -1,8 +1,21 @@
-h2 {
-    color: purple; 
-    font-size: 64px;
+/*************** Layout *************/
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
 }
+
+h2 {
+    color: red; 
+    font-size: 64px;
+    text-transform: uppercase;
+}
+
 p {
-    color: peru;
     font-size: 30px;
+}
+
+ul {
+    color: blue;
 }
