@@ -1,0 +1,32 @@
+h1 {
+    color: red;
+    text-align: center;
+    font-size: 35px;
+}
+
+a {
+    text-align: center;
+    font-size: larger;
+}
+
+.ortala {
+    text-align: center;
+}
+
+.padding {
+    padding-left: 10px;
+}
+
+h2 {
+    text-align: center;
+    color: purple;
+    font-size: 35px;
+}
+
+h3 {
+    color: darkgoldenrod;
+}
+
+p {
+    font-size: 20px;
+}
