@@ -1,6 +1,37 @@
 /* class -> .text-red {} */
 /* id -> #id-bilgisi {} */
 
+
+
+/* css selectors */
+
+
+
+/* li:first-child {
+    color: green;
+}
+
+li:last-child {
+    color: indianred;
+} */
+
+/* li:nth-child(odd) {
+    color: red;
+}
+
+li:nth-child(even) {
+    color: blue;
+} */
+
+li:nth-child(3n) {
+    color: red;
+}
+
+.color-blue.fw-normal {
+    color: blue;
+    font-weight: normal;
+}
+
 h1,h2,h3,h4,h5,h6{
     color: rosybrown;
 }
