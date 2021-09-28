@@ -1,0 +1,51 @@
+.imgortala{
+    margin: auto;
+    display: block;
+    padding: auto;
+}
+
+.container{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+.graycard{
+    height: 70px;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: lightgray;
+    
+}
+
+.aramacubugu{
+    background-color: white;
+    margin-top: 1px;
+    height: 20px;
+    width: 25%;
+    border-style:solid;
+    border-width: 1px;
+    margin: auto;
+}
+
+.btn{
+    float: left;
+    background-color:lightgray;
+    height: 20px;
+    border-style: solid;
+    border-width: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+}
+
+.leftblue{
+    margin-top: 10px;
+    width: 20%;
+    padding: 3%;
+    margin-left: 10%;
+    background-color:darkcyan;
+    
+}
