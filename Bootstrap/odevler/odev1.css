@@ -1,0 +1,18 @@
+span {
+    font-size: 20px;
+}
+
+a{
+    
+    text-decoration: none;
+}
+
+h3{
+    color: darkgoldenrod;
+}
+
+.urunlertext{
+    color: purple;
+    font-size: 20px;
+    font-weight: bold;
+}
