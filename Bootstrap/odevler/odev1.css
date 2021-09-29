@@ -16,3 +16,22 @@ h3{
     font-size: 20px;
     font-weight: bold;
 }
+
+.card1 {
+    width: 70px; 
+    height: 28px; 
+    background-color: lightgray;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.cardcss{
+    width: 30%;
+    padding: 3%;
+    float: left;
+    margin-right: 3%;
+    background-color:white;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
