@@ -1,6 +1,6 @@
 .navbar {
     height: 54px;
-    background-color: #FFFFFF;
+   
 }
 
 .card{
@@ -8,4 +8,19 @@
     height: 25px;
     text-align: center;
     margin-left: 250px;
+}
+
+.storyimages{
+    height: 60px; 
+    width: 60px; 
+    border-radius: 60px; 
+    margin-top: 20px; 
+    margin-right: 10px; 
+    border: 2px solid rgb(238, 39, 82);  
+    padding: 2px;
+}
+
+.storyfonts{
+    font-size: 12px;
+    margin-top: 5px;
 }
