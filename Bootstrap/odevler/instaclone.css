@@ -1,0 +1,11 @@
+.navbar {
+    height: 54px;
+    background-color: #FFFFFF;
+}
+
+.card{
+    width: 210px;
+    height: 25px;
+    text-align: center;
+    margin-left: 250px;
+}
