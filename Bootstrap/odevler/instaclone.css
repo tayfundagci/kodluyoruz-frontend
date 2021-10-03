@@ -24,3 +24,72 @@
     font-size: 12px;
     margin-top: 5px;
 }
+
+.sagahizala{
+    text-align: right;
+}
+
+.gecisyap{
+    color: blue;
+    text-decoration: none;
+    margin-left: 60px;
+    margin-bottom: 10px;
+}
+
+.takipet{
+    color: blue;
+    text-decoration: none;
+
+}
+
+.oneriler{
+    height: 40px; 
+    width: 40px; 
+    border-radius: 40px; 
+    margin-top: 10px; 
+    margin-left: 20px; 
+}
+
+.fotoyaortala{
+    float: right;
+    font-size: 14px;
+    margin-right: 100px;
+    margin-top: 17px;
+}
+
+.hakkinda{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 10px;
+    color: gray;
+}
+
+.postname{
+    float: right;
+    font-size: 14px;
+    margin-right: 340px;
+    margin-top: 17px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.postyorum{
+    height: 20px; 
+    width: 20px; 
+    border-radius: 20px; 
+    margin-top: 10px; 
+    margin-left: 14px; 
+}
+
+.postfotoyaortala{
+    float: right;
+    font-size: 14px;
+    margin-right: 230px;
+    margin-top: 10px;
+}
+
+.posthakkinda{
+    font-size: 15px;
+    color: gray;
+    margin-left: 15px;
+}
