@@ -18,13 +18,18 @@
   <link rel="stylesheet" href="./fontawesome/css/all.min.css">
   <link rel="stylesheet" href="./css/bootstrap.min.css">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap"
+    rel="stylesheet">
+
   <title>LinkedIn</title>
 </head>
 
-<body style="background-color: #F3F2EF;">
-  <div class="bg-white">
+<body style="background-color: #F3F2EF; padding-top: 60px;">
+  <div class="bg-white fixed-top">
     <div class="container" style="height: 60px;">
-      <nav class="navbar navbar-expand-lg ">
+      <nav class="navbar navbar-expand-lg">
         <a class="navbar-brand" href="#"><i class="fab fa-2x fa-linkedin"></i></a>
         <form class="form-inline my-2 my-lg-0">
           <input class="form-control mr-sm-2 border-dark" type="search" placeholder="Arama Yap" aria-label="Search">
@@ -36,7 +41,7 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mx-auto border-end border-dark text-muted">
+          <ul class="navbar-nav ms-auto border-end border-dark text-muted">
             <li class="nav-item  text-center me-4">
               <i class="fas fa-home fa-lg"> <br> <span style="font-size: 12px; font-weight: normal; ">Ana Sayfa</span>
               </i>
@@ -63,14 +68,19 @@
 
           </ul>
 
-          <ul class="navbar-nav me-auto text-muted">
+          <ul class="navbar-nav me-auto text-muted ms-4">
             <li class="text-center">
               <i class="fas fa-caret-square-down fa-lg"> <br> <span
                   style="font-size: 15px; font-weight: normal;">İş</span> </i>
             </li>
           </ul>
 
-          <span class="text-center" style="color:brown;">Premium'u ücretsiz <br> deneyin</span>
+
+
+          <span class="text-center" style="color:#5D3B09;">Premium'u ücretsiz <br> deneyin</span>
+
+
+
 
 
         </div>
@@ -83,13 +93,16 @@
   </div>
 
   <div class="container mt-2" style="font-size: 12px;">
-    <div class="col-2">
-          <div class="card rounded" style="width: 18rem;">
-            <img src="https://picsum.photos/id/210/100/20/?blur" class="card-img-top" alt="">
+    <div class="row">
+      <div class="col-2">
+        <div class="row">
+          <div class="card" style="width: 18rem; border-radius: 15px;">
+            <img src="https://picsum.photos/id/210/80/20/?blur" class="card-img-top w-100" alt=""
+              style="border-radius: 5px;">
             <div class="card-body text-center">
-              <img src="https://picsum.photos/id/600/50/50/?blur" alt="" class="rounded-circle">
+              <img src="https://picsum.photos/id/600/60/60/" alt="" class="rounded-circle">
               <h5 class="card-title">Tayfun Dağcı</h5>
-              <p class="card-text" style="font-weight: normal; font-size: 15px">Student at Department of Management
+              <p class="card-text" style="font-weight: normal; font-size: 12px">Student at Department of Management
                 Information Systems in Akdeniz University</p>
             </div>
             <ul class="list-group list-group-flush">
@@ -109,8 +122,8 @@
             </ul>
           </div>
 
-        
-          <div class="card mt-2" style="width: 18rem;">
+
+          <div class="card mt-2" style="width: 18rem; border-radius: 15px;">
             <ul class="list-group list-group-flush">
               <li class="list-group-item">
                 <p><a style="text-decoration: none; font-weight: bold; font-size: 12px;" href="">Gruplar</a></p>
@@ -121,20 +134,257 @@
               <li class="list-group-item text-center mt-1">Daha Fazla Keşfet</li>
             </ul>
           </div>
-        
+        </div>
+      </div>
+
+      <!-- ------------------------------------- -->
+
+      <div class="col-7 ">
+        <div class="bg-white border py-2" style="border-radius: 15px;">
+          <div class="ms-2 py-2">
+            <img src="https://picsum.photos/id/600/40/40/" alt="" class="rounded-circle ms-3">
+            <button type="button" class="btn btn-light btn-lg border border-secondary px-5 ms-3"
+              style="border-radius: 25px;">Bir Gönderi Başlat</button>
+          </div>
+          <br>
+          <div class="ms-5">
+            <i class="fas fa-2x fa-image text-muted ms-4"> Fotoğraf</i>
+            <i class="fab fa-2x fa-youtube text-muted ms-5"> Video</i>
+            <i class="fas fa-2x fa-calendar-week text-muted ms-5"> Etkinlik</i>
+            <i class="fas fa-2x fa-edit text-muted ms-5"> Yazı Yaz</i>
+          </div>
+        </div>
+        <hr>
+        <div class="bg-white border px-3" style="border-radius: 15px;">
+          <div class="row mt-3 mb-3">
+            <div class="col-2 ">
+              <img
+                src="https://media-exp1.licdn.com/dms/image/C4E03AQFdKiI3bha-Mg/profile-displayphoto-shrink_100_100/0/1556089738131?e=1639008000&v=beta&t=7M3XJ81RNOSgj7a78udrJW5hCGVNrISjBc0orRELDKc"
+                class="rounded-circle ms-5" alt="" style="height: 50px; width: 50px;">
+            </div>
+            <div class="col-10">
+              <span"><strong>Staj İlanları</strong><br></span>
+                <p class="text-muted">Staj ve Burs ilanları için bağlantı kurabilirsiniz. <br>
+                  14 saat <i class="fas fa-globe-europe"></i>
+                </p>
+            </div>
+            <p>
+              Satın Alma Departmanına Endüstri mühendisliği veya ilgili diğer mühendislik bölümlerinde 3. Sınıf
+              öğrencisi olan ve ileri seviyede #İngilizce bilen #Stajyer arayışı bulunmaktadır.
+            </p>
+            <img
+              src="https://media-exp1.licdn.com/dms/image/C4D22AQGTp0IgR4OTig/feedshare-shrink_2048_1536/0/1633423555557?e=1636588800&v=beta&t=kA7-LgCw_VuTPtAo-mHX8nIul2WoXjCMdLCWpLIloDg"
+              alt="">
+            <div class="row mt-3">
+              <i class="fas fa-lg fa-thumbs-up"><span class="text-muted"> 19 - 3 yorum</span></i>
+            </div>
+            <hr class="mt-3">
+            <div class="ms-5">
+              <i class="fas fa-lg fa-thumbs-up text-muted ms-5"> Beğen</i>
+              <i class="fas fa-lg fa-comment-alt text-muted ms-5"> Yorum Yap</i>
+              <i class="fas fa-lg fa-share text-muted ms-5"> Paylaş</i>
+              <i class="fas fa-lg fa-paper-plane text-muted ms-5"> Gönder</i>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="bg-white border px-3 mt-3" style="border-radius: 15px;">
+          <div class="row mt-3 mb-3">
+            <div class="col-2 ">
+              <img
+                src="https://media-exp1.licdn.com/dms/image/C4E03AQFdKiI3bha-Mg/profile-displayphoto-shrink_100_100/0/1556089738131?e=1639008000&v=beta&t=7M3XJ81RNOSgj7a78udrJW5hCGVNrISjBc0orRELDKc"
+                class="rounded-circle ms-5" alt="" style="height: 50px; width: 50px;">
+            </div>
+            <div class="col-10">
+              <span"><strong>Staj İlanları</strong><br></span>
+                <p class="text-muted">Staj ve Burs ilanları için bağlantı kurabilirsiniz. <br>
+                  14 saat <i class="fas fa-globe-europe"></i>
+                </p>
+            </div>
+            <p>
+              Misfits #Stajyer arıyor!
+
+              • Üniversitelerin ilgili bölümlerinden mezun, <br>
+              • Tam zamanlı olarak ofiste çalışabilecek, <br>
+              • Fotoğraf çekimi konusunda ilgili, <br>
+              • #Adobe programlarına hakim, <br>
+              • Video trendlerini takip eden, <br>
+              • Ekip arkadaşları ile uyumlu çalışan, iletişim gücü yüksek, <br>
+              • İşini severek yapan, <br>
+              • Post aşamasında ses ve renk düzenlemeleri konusunda ilgili <br>
+              • Sorumluluk sahibi, iş takibinde hassas, çalışkan, Stajyer #Videographer aranıyor. <br>
+
+            </p>
+            <img
+              src="https://media-exp1.licdn.com/dms/image/C5622AQHoHDV9__Fv8w/feedshare-shrink_2048_1536/0/1632300295383?e=1636588800&v=beta&t=uIYzlJDmu5RkhLhMFt03uTQf7sHGTa1sJ-nBRFk8xE4"
+              alt="">
+            <div class="row mt-3">
+              <i class="fas fa-lg fa-thumbs-up"><span class="text-muted"> 149 - 15 yorum</span></i>
+            </div>
+            <hr class="mt-3">
+            <div class="ms-5">
+              <i class="fas fa-lg fa-thumbs-up text-muted ms-5"> Beğen</i>
+              <i class="fas fa-lg fa-comment-alt text-muted ms-5"> Yorum Yap</i>
+              <i class="fas fa-lg fa-share text-muted ms-5"> Paylaş</i>
+              <i class="fas fa-lg fa-paper-plane text-muted ms-5"> Gönder</i>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="bg-white border px-3 mt-3 mb-5" style="border-radius: 15px;">
+          <div class="row mt-3 mb-3">
+            <div class="col-2 ">
+              <img
+                src="https://media-exp1.licdn.com/dms/image/C560BAQEz00-S6u1OzA/company-logo_100_100/0/1553959027410?e=1641427200&v=beta&t=nx910R2w2NzoDW_atYgiWB7qxUd-RblOvzAZfUqWXY4"
+                class="rounded-circle ms-5" alt="" style="height: 50px; width: 50px;">
+            </div>
+            <div class="col-10">
+              <span"><strong>Mühendislik Stajları</strong><br></span>
+                <p class="text-muted">77.320 Takipçi <br>
+                  5 saat <i class="fas fa-globe-europe"></i>
+                </p>
+            </div>
+            <p>
+              #Oyun ve #Uygulama Akademisi - #Ücretsiz <br>
+              400 saatten fazla ücretsiz eğitim - 2000 bursiyer ile sınırlı <br>
+
+              #Google Türkiye, Girişimcilik Vakfı ve T3 Girişim Merkezi işbirliğinde, Sanayi ve Teknoloji Bakanlığı ve <br> brCumhurbaşkanlığı Dijital Dönüşüm Ofisi destekleriyle hayata geçirilen Oyun ve Uygulama Akademisi'nde 400 <br> brsaatten fazla ücretsiz eğitimle ister sıfırdan oyun yazmayı öğren, ister uygulama geliştirmeyi. <br>
+
+              Hadi sen de katıl, yeni bir kariyerin başlangıcını yap! <br> 
+              Son Başvuru Tarihi: 1 Kasım 2021 <br>
+              Akademi Başlama Tarihi: 1 Aralık 2021 <br>
+            </p>
+            <img
+              src="https://media-exp1.licdn.com/dms/image/sync/C4D22AQGN0dgJIUFSLA/feedshare-shrink_800/0/1633004105190?e=1636588800&v=beta&t=RZfaMY2_XMCGc4frR0wgNJoaTUqF-9GBt06tUFYP1pU"
+              alt="">
+            <div class="row mt-3">
+              <i class="fas fa-lg fa-thumbs-up"><span class="text-muted"> 53 - 8 yorum</span></i>
+            </div>
+            <hr class="mt-3">
+            <div class="ms-5">
+              <i class="fas fa-lg fa-thumbs-up text-muted ms-5"> Beğen</i>
+              <i class="fas fa-lg fa-comment-alt text-muted ms-5"> Yorum Yap</i>
+              <i class="fas fa-lg fa-share text-muted ms-5"> Paylaş</i>
+              <i class="fas fa-lg fa-paper-plane text-muted ms-5"> Gönder</i>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+      <!-- ----------------------------- -->
+
+      <div class="col-3">
+        <div class="bg-white border py-2 px-3" style="border-radius: 15px;"><strong>Akışınıza ekleyin</strong> <i
+            class="fas fa-info-circle float-end mt-1"></i>
+          <div class="mt-3">
+            <div class="row">
+              <div class="col-2">
+                <img
+                  src="https://media-exp1.licdn.com/dms/image/C5603AQHCH4-ilSuHrg/profile-displayphoto-shrink_100_100/0/1624304092276?e=1639008000&v=beta&t=8H6nAE7PbYZAK1zGovNTxP4JigttRhFv8NqYejHzM3g"
+                  class="rounded-circle" alt="" style="height: 50px; width: 50px;">
+              </div>
+              <div class="col-9 ms-3">
+                <span">Robert Downey Jr. <i class="fab fa-linkedin"></i><br>
+                  Founder, FootPrint Coalition and Co-founder, Team Downey</span>
+                  <div class="btn border-dark px-4 mt-2" style="border-radius: 15px;">Takip Et</div>
+              </div>
+            </div>
+
+            <div class="row mt-3">
+              <div class="col-2">
+                <img
+                  src="https://media-exp1.licdn.com/dms/image/C5603AQEFJ3hkLZfL4w/profile-displayphoto-shrink_100_100/0/1586697296329?e=1639008000&v=beta&t=jGsqzyZ9PXJJZPrI6YgLyN2B2S9Rl0AiJYfXfABGfZg"
+                  class="rounded-circle" alt="" style="height: 50px; width: 50px;">
+              </div>
+              <div class="col-9 ms-3">
+                <span"><strong>AKINSOFT - Türkiye'nin Vizyonu</strong><br>
+                  Yazılım ve Yüksek Teknoloji Şirketi - AKINSOFT SOFTWARE ENGINEERING</span>
+                  <div class="btn border-dark px-4 mt-2" style="border-radius: 15px;">Takip Et</div>
+              </div>
+            </div>
+
+            <div class="row mt-3">
+              <div class="col-2">
+                <img
+                  src="https://media-exp1.licdn.com/dms/image/C4D03AQHqRRhVsnaziA/profile-displayphoto-shrink_200_200/0/1626063510328?e=1639008000&v=beta&t=OqsGqu_cD6uWi8sYxkpA32ipMsuLVG7esHTGRmMOzVo"
+                  class="rounded-circle" alt="" style="height: 50px; width: 50px;">
+              </div>
+              <div class="col-9 ms-3">
+                <span">Bill Gates <i class="fab fa-linkedin"></i><br>
+                  Co-chair, Bill & Melinda Gates Foundation</span> <br>
+                  <div class="btn border-dark px-4 mt-2" style="border-radius: 15px;">Takip Et</div>
+              </div>
+            </div>
+            <br>
+            <p>Tüm Tavsiyeleri Görüntüle <i class="fas fa-arrow-right"></i></p>
+
+          </div>
+
+
+
+        </div>
+
+        <div class="bg-white border py-2 px-3 mt-2" style="border-radius: 15px;">
+          <p class="text-muted" style="font-size: 15px;"><strong>Bugünün en önemli eğitimleri</strong> <i
+              class="fas fa-info-circle float-end mt-1"></i></p>
+          <div>
+            <span><strong>1. Improve Cognitive Flexibility at Work</strong></span> <br>
+            <span class="ms-3">Andrea Bonior</span>
+          </div>
+          <div class="mt-2">
+            <span class=""><strong>2. Be the Manager People Won't Leave</strong></span> <br>
+            <span class="ms-3">Laurie Ruettimann</span>
+          </div>
+          <div class="mt-2">
+            <span><strong>3. Scrum: The Basics</strong></span> <br>
+            <span class="ms-3">Kelley O'Connell</span>
+          </div>
+          <p class="text-muted text-center mt-3">
+            <strong>LinkedIn Learning‘de daha fazlasını <br>
+              göster <i class="fas fa-arrow-right float-end"></i></strong>
+          </p>
+
+        </div>
+
+        <div class="text-center mt-3">
+          <div class="mt-2 mb-2">
+            <a href="#" style="text-decoration: none; color: gray;">Hakkında</a> <a href="#"
+              style="text-decoration: none; color: gray;">Erişilebilirlik</a> <a href="#"
+              style="text-decoration: none; color: gray;">Yardım Merkezi</a>
+          </div>
+          <div class="mt2 mb-2">
+            <a href="" style="text-decoration: none; color: gray;">Gizlilik ve Koşullar</a> <a href=""
+              style="text-decoration: none; color: gray;">Reklam Tercihleri</a>
+          </div>
+          <div class="mt-2 mb-2">
+            <a href="" style="text-decoration: none; color: gray;">Reklam</a> <a href=""
+              style="text-decoration: none; color: gray;">Ticari Hizmetler</a>
+          </div>
+          <div class="mt2 mb-2">
+            <a href="" style="text-decoration: none; color: gray;">LinkedIn Uygulamasını Yükle</a> <a href=""
+              style="text-decoration: none; color: gray;">Daha fazla</a>
+          </div>
+
+          <div class="mt-3">
+            <p><strong>Linked <i class="fab fa-linkedin"></i></strong> LinkedIn Corporation © 2021</p>
+          </div>
+        </div>
+
+
+
+
+
+
+      </div>
+
     </div>
 
-    
-
-    
-
-  </div>
-  
-
-
-
-
-  
 
 
 
@@ -144,21 +394,26 @@
 
 
 
-  <!-- Optional JavaScript; choose one of the two! -->
 
-  <!-- Option 1: Bootstrap Bundle with Popper -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
-    crossorigin="anonymous"></script>
 
-  <!-- Option 2: Separate Popper and Bootstrap JS -->
 
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
-    integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
-    integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
-    crossorigin="anonymous"></script>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+      integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
+      integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
+      crossorigin="anonymous"></script>
 
 </body>
 
