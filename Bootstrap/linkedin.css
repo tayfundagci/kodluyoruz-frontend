@@ -11,3 +11,9 @@
     text-decoration: none;
     color: gray;
 }
+
+@media (max-width: 576) {
+    .article{
+        font-size: 100px;
+    }
+}
