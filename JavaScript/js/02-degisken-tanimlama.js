@@ -48,4 +48,4 @@ console.log(SERVER_PASSWORD)
 // SERVER_PASSWORD = "1234" 
 // console.log(SERVER_PASSWORD)
 
-// sabitiniz varsa const (bir kere tanımlanır ve asla değişmez)
+// sabitiniz varsa const (bir kere tanımlanır ve asla değişmez.)
