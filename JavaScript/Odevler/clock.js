@@ -3,18 +3,25 @@ let user = document.querySelector("#user")
 let tarih = document.querySelector("#tarih")
 let info = document.querySelector("#info")
 
+
 user.innerHTML = `Merhabalar, ${username[0].toUpperCase()}${username.slice(1).toLowerCase()}! Hoşgeldin! `
 
 
-info.innerHTML = `Tarihinde sitemize giriş yaptınız ve şu anda saat ile gün bilgisini görüntülüyorsunuz.`
-
-
-
+  function checkTime() {
+    if (i < 10) {
+      i = "0" + i;
+    }
+    return i;
+    }
+  
+   const myTime = () => {
     var date = new Date()
     var saat = date.getHours();
     var dakika = date.getMinutes();
     var saniye = date.getSeconds();
     var day = date.getDay()
+    dakika = checkTime(dakika);
+    saniye = checkTime(saniye);
     {
         if (day == 1) {
             day = "Pazartesi";
@@ -32,9 +39,17 @@ info.innerHTML = `Tarihinde sitemize giriş yaptınız ve şu anda saat ile gün
             day = "Pazar";
           }
     }
-    
-   
     tarih.innerHTML = `${(saat+":"+dakika+":"+saniye+" "+day)}`
+    var t = setTimeout(function(){ myTime() }, 1000);
+   }
+   myTime();
+
+
+info.innerHTML = `Tarihinde sitemize giriş yaptınız ve şu anda saat ile gün bilgisini görüntülüyorsunuz.`
+
+
+
+
 
     
 
