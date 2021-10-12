@@ -7,12 +7,12 @@ let info = document.querySelector("#info")
 user.innerHTML = `Merhabalar, ${username[0].toUpperCase()}${username.slice(1).toLowerCase()}! Hoşgeldin! `
 
 
-  function checkTime() {
-    if (i < 10) {
-      i = "0" + i;
-    }
-    return i;
-    }
+function checkTime() {
+  if (i < 10) {
+    i = "0" + i;
+  }
+  return i;
+  }
   
    const myTime = () => {
     var date = new Date()
