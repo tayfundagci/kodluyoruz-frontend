@@ -2,7 +2,7 @@ function hello(firstName) {
     console.log(`Merhaba ${firstName}`)
 }
 
-hello("JavaScript")
+hello("tayfun")
 
 
 
