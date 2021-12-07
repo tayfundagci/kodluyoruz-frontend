@@ -11,7 +11,7 @@
       integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
       crossorigin="anonymous"
     />
-    <title>Yapılacaklar Listesi</title>
+    <title>To Do List</title>
   </head>
   <body>
     <div class="mr-1" style="position: relative">
@@ -34,7 +34,7 @@
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
-          <div class="toast-body">Listeye eklendi.</div>
+          <div class="toast-body">Added to the list.</div>
         </div>
       </div>
     </div>
@@ -58,7 +58,7 @@
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
-          <div class="toast-body">Listeye boş ekleme yapamazsınız!</div>
+          <div class="toast-body">You cannot add an empty list to the list.</div>
         </div>
       </div>
     </div>
@@ -69,19 +69,18 @@
           class="mb-1"
           alt=""
         />
-        <h2>Yapılacaklar Listesi</h2>
-        <input type="text" id="task" placeholder="Bugün ne yapacaksın?" />
+        <h2>To Do List</h2>
+        <input type="text" id="task" placeholder="What Are You Doing Today" />
         <span onclick="newElement()" id="liveToastBtn" class="button"
-          >Ekle</span
+          >Add</span
         >
       </div>
 
       <ul id="list">
-        <li>3 Litre Su İç</li>
-        <li>Ödevleri Yap</li>
-        <li>En Az 3 Saat Kodlama Yap</li>
-        <li>Yemek Yap</li>
-        <li>50 Sayfa Kitap Oku</li>
+        <li>Drink 3 liters of water</li>
+        <li>Do the homework</li>
+        <li>Code for at least 3 hours</li>
+        <li>Cook</li>
       </ul>
       <script src="todolist.js"></script>
       <script
