@@ -17,7 +17,7 @@ mail adresinin uzunluğu: ${email.length}
 Borcunuz: ${(2 + 3) * 10} TL
 günün saat bilgisi : ${new Date().getHours()}
 
-kısa isminiz: ${username[0]}.
+kısa isminiz: ${username[0].toUpperCase()}.
 `
 
 console.log(info)

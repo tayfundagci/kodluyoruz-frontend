@@ -3,13 +3,13 @@
 
 
 // Dokumana yazdirma islemi ile merhaba dunya:
-// document.write('Merhaba Dünya');
+document.write('Merhaba Dünya');
 
 
 
 // uyari mesaji (alert) ile merhaba dunya
-// alert("Merhaba Dünya");
+alert("Merhaba Dünya");
 
 
 // console.log ile merhaba dunya
-// console.log("Merhaba Dunya");
+console.log("Merhaba Dunya");

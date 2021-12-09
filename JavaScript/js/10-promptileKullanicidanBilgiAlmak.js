@@ -2,6 +2,6 @@
 
 let fullName = prompt("Lütfen Adınızı Giriniz: ")
 
-let greeting = document.querySelector("#greeting")
+let promptt = document.getElementById('promptt')
 
-greeting.innerHTML = `${greeting.innerHTML} <small style="color:red">${fullName}</small>`
+promptt.innerHTML = `${promptt.innerHTML} <small style="color:red">${fullName}</small>`
