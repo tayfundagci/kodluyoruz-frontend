@@ -9,6 +9,8 @@ function hello() {
     hello_world()
 }
 
+
+
 function userCheck () {
     if(username && age >= 18)
 {
@@ -23,6 +25,8 @@ else if( !(age >= 18) )
     info.innerHTML = "Yaş Bilginiz Yok veya 18 Yaşından Küçüksünüz"
 }
 }
+
+
 
 hello() //calistir
 hello() //calistir
